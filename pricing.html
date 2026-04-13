@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bekijk de transparante tarieven van ZorgPunt Voorbeeld. Geen verborgen kosten, duidelijke pakketten voor elke zorgbehoefte.">
+  <title>Tarieven — ZorgPunt Voorbeeld</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav" role="banner"><a href="index.html" class="nav__brand">ZorgPunt Voorbeeld</a><nav class="nav__links" aria-label="Hoofdnavigatie"><a href="index.html">Home</a><a href="about.html">Over Ons</a><a href="blog.html">Blog</a><a href="pricing.html" class="is-active" aria-current="page">Tarieven</a><a href="contact.html">Contact</a></nav><button class="nav__toggle menu-btn" aria-label="Open menu" aria-expanded="false">Menu</button></header>
+  <div class="menu-overlay" role="dialog" aria-label="Navigatiemenu"><div class="menu-overlay__nav"><a href="index.html" class="menu-overlay__link">Home</a><a href="about.html" class="menu-overlay__link">Over Ons</a><a href="blog.html" class="menu-overlay__link">Blog</a><a href="pricing.html" class="menu-overlay__link">Tarieven</a><a href="contact.html" class="menu-overlay__link">Contact</a></div><div class="menu-overlay__aside"><div style="background-color:var(--color-dusty-teal);border-radius:var(--radius-lg);"></div><div style="background-color:var(--color-stone);border-radius:var(--radius-lg);"></div><div style="background-color:var(--color-stone);border-radius:var(--radius-lg);"></div><div style="background-color:var(--color-dusty-teal);border-radius:var(--radius-lg);"></div></div><button class="menu-overlay__close menu-close" aria-label="Sluit menu">Sluiten</button></div>
+  <div class="nav-spacer"></div>
+
+  <section class="pricing-header reveal-on-scroll" style="background-color:var(--color-bg-warm);padding:var(--sp-9) 0 var(--sp-7);"><div class="container text-center"><p class="subheading">Zorgpakketten &amp; Tarieven</p><h1>Tarieven</h1><p style="max-width:600px;margin:0 auto;text-align:center;">Transparante prijzen voor al onze medische diensten. Geen verrassingen.</p></div></section>
+
+  <section class="pricing-section reveal-on-scroll">
+    <div class="container">
+      <div class="pricing-toggle" role="group" aria-label="Kies betaalperiode">
+        <span class="pricing-toggle__label is-active" id="label-monthly">Maandelijks</span>
+        <label class="pricing-toggle__switch" for="pricing-toggle-input" aria-label="Schakel tussen maandelijks en jaarlijks"><input type="checkbox" id="pricing-toggle-input" class="pricing-toggle sr-only" role="switch" aria-checked="false"></label>
+        <span class="pricing-toggle__label" id="label-yearly">Jaarlijks <span class="pricing-toggle__save">Bespaar 20%</span></span>
+      </div>
+
+      <!-- Alle prijzen excl. BTW -->
+      <div class="pricing-grid reveal-on-scroll reveal-stagger">
+        <div class="pricing-card">
+          <h3>Basis Zorg</h3>
+          <p class="pricing-card__description">Ideaal voor reguliere huisartsenzorg en eenvoudige consulten.</p>
+          <div class="monthly-price"><div class="pricing-card__price">&euro;49 <span>/maand</span></div></div>
+          <div class="yearly-price" style="display:none;"><div class="pricing-card__price">&euro;39 <span>/maand</span></div></div>
+          <p class="pricing-card__period">Per maand, maandelijks opzegbaar</p>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">Huisartsenconsulten (onbeperkt)</li>
+            <li class="pricing-card__feature">Telefonisch spreekuur</li>
+            <li class="pricing-card__feature">Basisdiagnostiek</li>
+            <li class="pricing-card__feature">E-mail support</li>
+            <li class="pricing-card__feature">Jaarlijkse bloedtest</li>
+          </ul>
+          <a href="contact.html" class="btn btn--secondary">Kies Basis Zorg <span class="btn-arrow">&rarr;</span></a>
+        </div>
+
+        <div class="pricing-card pricing-card--featured">
+          <span class="pricing-card__badge">Meest gekozen</span>
+          <h3>Compleet Zorg</h3>
+          <p class="pricing-card__description" style="color:var(--color-cream);opacity:0.75;">Voor wie uitgebreide zorg wil met directe toegang tot specialisten.</p>
+          <div class="monthly-price"><div class="pricing-card__price" style="color:var(--color-cream);">&euro;129 <span>/maand</span></div></div>
+          <div class="yearly-price" style="display:none;"><div class="pricing-card__price" style="color:var(--color-cream);">&euro;99 <span>/maand</span></div></div>
+          <p class="pricing-card__period" style="color:var(--color-cream);opacity:0.5;">Per maand, jaarlijks gefactureerd</p>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">Alles uit Basis Zorg, plus:</li>
+            <li class="pricing-card__feature">Directe toegang tot specialisten</li>
+            <li class="pricing-card__feature">Halfjaarlijkse gezondheidscheck</li>
+            <li class="pricing-card__feature">Fysiotherapie (8 sessies/jaar)</li>
+            <li class="pricing-card__feature">Dermatologische screening</li>
+            <li class="pricing-card__feature">Prioriteit bij afspraken</li>
+            <li class="pricing-card__feature">Persoonlijke gezondheidscoach</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline">Kies Compleet Zorg <span class="btn-arrow">&rarr;</span></a>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Premium Zorg</h3>
+          <p class="pricing-card__description">Voor maximale gezondheidszekerheid. Alles inbegrepen, zonder wachttijden.</p>
+          <div class="monthly-price"><div class="pricing-card__price">&euro;249 <span>/maand</span></div></div>
+          <div class="yearly-price" style="display:none;"><div class="pricing-card__price">&euro;199 <span>/maand</span></div></div>
+          <p class="pricing-card__period">Per maand, jaarlijks gefactureerd</p>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">Alles uit Compleet Zorg, plus:</li>
+            <li class="pricing-card__feature">Uitgebreide executive health check</li>
+            <li class="pricing-card__feature">Onbeperkt fysiotherapie</li>
+            <li class="pricing-card__feature">Oogheelkundig onderzoek</li>
+            <li class="pricing-card__feature">Cosmetische consulten</li>
+            <li class="pricing-card__feature">24/7 telefonische bereikbaarheid</li>
+            <li class="pricing-card__feature">Persoonlijke medisch adviseur</li>
+            <li class="pricing-card__feature">Thuisbezoeken bij spoed</li>
+          </ul>
+          <a href="contact.html" class="btn btn--secondary">Kies Premium Zorg <span class="btn-arrow">&rarr;</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq reveal-on-scroll">
+    <div class="faq__header"><p class="subheading">Veelgestelde vragen</p><h2>Alles wat u wilt weten</h2></div>
+    <div class="faq__list">
+      <div class="faq__item faq-item"><button class="faq__question faq-question" aria-expanded="false">Worden de kosten vergoed door mijn zorgverzekering?<span class="faq__icon" aria-hidden="true"></span></button><div class="faq__answer faq-answer" role="region"><div class="faq__answer-inner"><p>Veel van onze diensten vallen onder de basisverzekering of aanvullende pakketten. Wij adviseren u graag over de vergoedingsmogelijkheden voor uw specifieke situatie.</p></div></div></div>
+      <div class="faq__item faq-item"><button class="faq__question faq-question" aria-expanded="false">Kan ik op elk moment opzeggen?<span class="faq__icon" aria-hidden="true"></span></button><div class="faq__answer faq-answer" role="region"><div class="faq__answer-inner"><p>Ja, bij maandelijkse betaling kunt u op elk moment opzeggen. Bij jaarlijkse betaling loopt uw abonnement tot het einde van de betaalperiode.</p></div></div></div>
+      <div class="faq__item faq-item"><button class="faq__question faq-question" aria-expanded="false">Zijn er extra kosten bovenop de genoemde prijzen?<span class="faq__icon" aria-hidden="true"></span></button><div class="faq__answer faq-answer" role="region"><div class="faq__answer-inner"><p>Nee, de genoemde prijzen zijn alles-inclusief voor de beschreven diensten. Alle prijzen zijn exclusief BTW (21%). Aanvullende behandelingen buiten het pakket worden apart geoffreerd.</p></div></div></div>
+      <div class="faq__item faq-item"><button class="faq__question faq-question" aria-expanded="false">Hoe snel kan ik terecht voor een consult?<span class="faq__icon" aria-hidden="true"></span></button><div class="faq__answer faq-answer" role="region"><div class="faq__answer-inner"><p>Voor reguliere consulten kunt u meestal binnen 48 uur terecht. Premium leden hebben directe toegang en kunnen dezelfde dag nog een afspraak maken.</p></div></div></div>
+      <div class="faq__item faq-item"><button class="faq__question faq-question" aria-expanded="false">Welk pakket is geschikt voor mij?<span class="faq__icon" aria-hidden="true"></span></button><div class="faq__answer faq-answer" role="region"><div class="faq__answer-inner"><p>Basis Zorg is ideaal als u een vaste huisarts zoekt. Compleet Zorg past bij wie regelmatig specialistische zorg nodig heeft. Premium Zorg biedt maximale zekerheid en gemak. Twijfelt u? Neem contact op voor persoonlijk advies.</p></div></div></div>
+    </div>
+  </section>
+
+  <section class="cta-banner--solid reveal-on-scroll" style="background-color:var(--color-bg-panel);padding:var(--sp-10) 0;"><div class="cta-banner__content" style="max-width:700px;margin:0 auto;text-align:center;padding:0 var(--sp-5);"><p class="subheading" style="color:var(--color-mid-green);">Persoonlijk advies</p><h2 style="color:var(--color-text);margin-bottom:var(--sp-5);">Nog vragen?</h2><p style="color:var(--color-text);opacity:0.8;margin-bottom:var(--sp-6);text-align:center;">Twijfelt u welk zorgpakket het beste bij u past? Neem vrijblijvend contact met ons op.</p><a href="contact.html" class="btn btn--primary btn--lg">Neem contact op <span class="btn-arrow">&rarr;</span></a></div></section>
+
+  <footer class="footer" role="contentinfo"><div class="footer__grid"><div><div class="footer__brand">ZorgPunt Voorbeeld</div><a href="mailto:info@zorgpuntvoorbeeld.nl" class="footer__email">info@zorgpuntvoorbeeld.nl</a></div><div class="footer__col"><h4>Contact</h4><ul><li><a href="tel:+31201234567">+31 20 123 4567</a></li><li><a href="mailto:info@zorgpuntvoorbeeld.nl">info@zorgpuntvoorbeeld.nl</a></li><li>Herengracht 200</li><li>1016 BS Amsterdam</li></ul></div><div class="footer__col"><h4>Pagina's</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">Over Ons</a></li><li><a href="blog.html">Blog</a></li><li><a href="pricing.html">Tarieven</a></li><li><a href="contact.html">Contact</a></li></ul></div></div><div class="footer__bottom"><span class="footer__copyright">&copy; 2026 ZorgPunt Voorbeeld. Alle rechten voorbehouden.</span><div class="footer__legal"><a href="privacy.html">Privacybeleid</a><a href="legal.html">Disclaimer</a><a href="algemene-voorwaarden.html">Algemene Voorwaarden</a></div></div></footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    (function(){var toggle=document.getElementById('pricing-toggle-input');var switchEl=toggle?toggle.closest('.pricing-toggle__switch'):null;var labelMonthly=document.getElementById('label-monthly');var labelYearly=document.getElementById('label-yearly');if(!toggle||!switchEl)return;function updateToggleVisual(){var isYearly=toggle.checked;if(isYearly){switchEl.classList.add('is-yearly');if(labelMonthly)labelMonthly.classList.remove('is-active');if(labelYearly)labelYearly.classList.add('is-active')}else{switchEl.classList.remove('is-yearly');if(labelMonthly)labelMonthly.classList.add('is-active');if(labelYearly)labelYearly.classList.remove('is-active')}}toggle.addEventListener('change',updateToggleVisual);if(labelMonthly){labelMonthly.addEventListener('click',function(){toggle.checked=false;toggle.dispatchEvent(new Event('change'))})}if(labelYearly){labelYearly.addEventListener('click',function(){toggle.checked=true;toggle.dispatchEvent(new Event('change'))})}updateToggleVisual()})();
+  </script>
+</body>
+</html>

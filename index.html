@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZorgPunt Voorbeeld — Persoonlijke Medische Zorg</title>
+  <meta name="description" content="ZorgPunt Voorbeeld biedt persoonlijke medische zorg in een warme, vertrouwde omgeving. Van huisarts tot specialist, alles onder een dak.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="index.html" class="brand-name">ZorgPunt Voorbeeld</a>
+      <nav class="desktop-nav" aria-label="Hoofdnavigatie">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Over Ons</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="pricing.html">Tarieven</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-toggle" id="menuOpen" aria-label="Open menu">Menu</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu-overlay" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-header">
+      <a href="index.html" class="brand-name">ZorgPunt Voorbeeld</a>
+      <button class="mobile-menu-close" id="menuClose" aria-label="Sluit menu">&times;</button>
+    </div>
+    <nav class="mobile-nav" aria-label="Mobiele navigatie">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Over Ons</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="pricing.html">Tarieven</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-photo-grid">
+        <div class="photo-tile photo-tile--1"><img src="images/hero-1.jpg" alt="Warm ontvangst bij de kliniek receptie" loading="eager"></div>
+        <div class="photo-tile photo-tile--2"><img src="images/hero-2.jpg" alt="Arts in gesprek met patient" loading="eager"></div>
+        <div class="photo-tile photo-tile--3"><img src="images/hero-3.jpg" alt="Moderne behandelkamer" loading="eager"></div>
+        <div class="photo-tile photo-tile--4"><img src="images/hero-4.jpg" alt="Fysiotherapeut helpt patient" loading="eager"></div>
+        <div class="photo-tile photo-tile--5"><img src="images/hero-5.jpg" alt="Laboratorium diagnostiek" loading="eager"></div>
+        <div class="photo-tile photo-tile--6"><img src="images/hero-6.jpg" alt="Patienten in de wachtkamer" loading="eager"></div>
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-headline">Uw gezondheid, onze prioriteit</h1>
+        <p class="hero-subheading">Persoonlijke medische zorg in een warme, vertrouwde omgeving. Van huisarts tot specialist, alles onder een dak.</p>
+        <a href="#ontdek" class="btn btn--primary">Meer Ontdekken</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-preview reveal-on-scroll" id="ontdek">
+    <div class="about-preview-inner">
+      <div class="about-preview-image"><img src="images/about-preview.jpg" alt="Het ZorgPunt team in de kliniek" loading="lazy"></div>
+      <div class="about-preview-content">
+        <span class="subheading">OVER ONS</span>
+        <h2>Zorg Die U Kent en Vertrouwt</h2>
+        <p>ZorgPunt Voorbeeld biedt al meer dan tien jaar medische zorg in een persoonlijke setting. Ons team van ervaren artsen en specialisten combineert vakkennis met oprechte aandacht voor elke patient. Wij geloven dat goede zorg begint bij luisteren, vertrouwen en nabijheid.</p>
+        <a href="about.html" class="btn btn--outline">Meer over ons</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-intro reveal-on-scroll">
+    <div class="testimonials-intro-inner">
+      <span class="subheading">WAT PATIENTEN ZEGGEN</span>
+      <h2>Ervaringen</h2>
+    </div>
+  </section>
+
+  <section class="testimonials-cards">
+    <article class="testimonial-card testimonial-card--1" style="background-color: #97ABAF;">
+      <div class="testimonial-card-inner">
+        <span class="testimonial-badge">no. 1</span>
+        <blockquote><p>&ldquo;Vanaf het eerste consult voelde ik me gehoord. De arts nam ruim de tijd en de diagnose was snel en helder. Ik voel me hier echt welkom.&rdquo;</p></blockquote>
+        <footer class="testimonial-attribution">
+          <cite class="testimonial-name">Marieke de Jong</cite>
+          <span class="testimonial-role">Patient sinds 2019</span>
+        </footer>
+      </div>
+    </article>
+    <article class="testimonial-card testimonial-card--2" style="background-color: #374840;">
+      <div class="testimonial-card-inner">
+        <span class="testimonial-badge">no. 2</span>
+        <blockquote><p>&ldquo;Na mijn knieoperatie heb ik hier fysiotherapie gehad. Het herstel ging sneller dan verwacht dankzij het persoonlijke behandelplan.&rdquo;</p></blockquote>
+        <footer class="testimonial-attribution">
+          <cite class="testimonial-name">Hans Vermeer</cite>
+          <span class="testimonial-role">Fysiotherapie patient</span>
+        </footer>
+      </div>
+    </article>
+    <article class="testimonial-card testimonial-card--3" style="background-color: #E1DED6;">
+      <div class="testimonial-card-inner">
+        <span class="testimonial-badge">no. 3</span>
+        <blockquote><p>&ldquo;De preventieve gezondheidscheck heeft mij enorm geholpen. Vroege detectie van een risicofactor die ik zelf nooit had opgemerkt. Dankbaar voor dit team.&rdquo;</p></blockquote>
+        <footer class="testimonial-attribution">
+          <cite class="testimonial-name">Linda Bakker</cite>
+          <span class="testimonial-role">Executive check-up</span>
+        </footer>
+      </div>
+    </article>
+    <div style="height:80vh"></div>
+  </section>
+
+  <section class="how-it-works reveal-on-scroll">
+    <div class="how-it-works-inner">
+      <header class="how-it-works-header"><h2>Hoe het werkt</h2></header>
+      <div class="steps-grid">
+        <article class="step-card">
+          <span class="step-number">01</span>
+          <h3>Afspraak Maken</h3>
+          <p>Bel ons of boek online. Wij plannen uw afspraak op een moment dat u uitkomt, met minimale wachttijd.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number">02</span>
+          <h3>Consult & Diagnose</h3>
+          <p>Uw arts neemt uitgebreid de tijd. Op basis van onderzoek stellen wij een helder behandelplan op, altijd in overleg met u.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number">03</span>
+          <h3>Behandeling & Nazorg</h3>
+          <p>Wij begeleiden u van behandeling tot volledig herstel. Uw vaste contactpersoon volgt uw voortgang persoonlijk op.</p>
+        </article>
+      </div>
+      <div class="how-it-works-cta"><a href="contact.html" class="btn btn--primary btn--light">Maak een Afspraak</a></div>
+    </div>
+  </section>
+
+  <section class="cta-fullwidth reveal-on-scroll">
+    <div class="cta-fullwidth-bg"><img src="images/cta-bg.jpg" alt="" loading="lazy" aria-hidden="true"></div>
+    <div class="cta-fullwidth-overlay"></div>
+    <div class="cta-fullwidth-content">
+      <h2>Uw gezondheid verdient aandacht.</h2>
+      <a href="contact.html" class="btn btn--primary btn--light">Plan een Consult</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col footer-col--brand">
+        <a href="index.html" class="brand-name">ZorgPunt Voorbeeld</a>
+        <p class="footer-tagline">Schrijf u in voor onze gezondheidstips</p>
+        <form class="footer-signup" action="#" method="post">
+          <label for="footerEmail" class="sr-only">E-mailadres</label>
+          <input type="email" id="footerEmail" name="email" placeholder="Uw e-mailadres" required>
+          <button type="submit" class="btn btn--small">Verstuur</button>
+        </form>
+      </div>
+      <div class="footer-col footer-col--contact">
+        <h4>Contact</h4>
+        <address>
+          <p><a href="mailto:info@zorgpuntvoorbeeld.nl">info@zorgpuntvoorbeeld.nl</a></p>
+          <p><a href="tel:+31201234567">+31 20 123 4567</a></p>
+          <p>Herengracht 200<br>1016 BS Amsterdam</p>
+        </address>
+      </div>
+      <div class="footer-col footer-col--nav">
+        <h4>Pagina's</h4>
+        <nav aria-label="Footer navigatie">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Over Ons</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="pricing.html">Tarieven</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ZorgPunt Voorbeeld. Alle rechten voorbehouden.</p>
+      <nav class="footer-legal" aria-label="Juridische links"><a href="#">Privacy</a><a href="#">Algemene Voorwaarden</a></nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

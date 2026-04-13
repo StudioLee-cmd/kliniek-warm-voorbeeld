@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZorgPunt Voorbeeld — Over Ons</title>
+  <meta name="description" content="Leer meer over het team van ZorgPunt Voorbeeld. Ervaren artsen en specialisten die persoonlijke zorg bieden in Amsterdam.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader"><div class="header-inner"><a href="index.html" class="brand-name">ZorgPunt Voorbeeld</a><nav class="desktop-nav" aria-label="Hoofdnavigatie"><ul><li><a href="index.html">Home</a></li><li><a href="about.html" class="active" aria-current="page">Over Ons</a></li><li><a href="blog.html">Blog</a></li><li><a href="pricing.html">Tarieven</a></li><li><a href="contact.html">Contact</a></li></ul></nav><button class="mobile-menu-toggle" id="menuOpen" aria-label="Open menu">Menu</button></div></header>
+  <div class="mobile-menu-overlay" id="mobileMenu" aria-hidden="true"><div class="mobile-menu-header"><a href="index.html" class="brand-name">ZorgPunt Voorbeeld</a><button class="mobile-menu-close" id="menuClose" aria-label="Sluit menu">&times;</button></div><nav class="mobile-nav" aria-label="Mobiele navigatie"><ul><li><a href="index.html">Home</a></li><li><a href="about.html" class="active" aria-current="page">Over Ons</a></li><li><a href="blog.html">Blog</a></li><li><a href="pricing.html">Tarieven</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div>
+
+  <section class="hero" style="padding-bottom: var(--sp-8);"><div class="hero-inner"><div class="hero-text"><span class="subheading">OVER ONS</span><h1 class="hero-headline">Ons Verhaal</h1><p class="hero-subheading">Achter elke behandeling staat een team dat gelooft in persoonlijke zorg, vakmanschap en oprechte aandacht.</p></div></div></section>
+
+  <section class="about reveal-on-scroll" id="verhaal">
+    <div class="about__grid">
+      <div class="about__image-wrap"><img src="images/about-story.jpg" alt="Het ZorgPunt team in overleg" loading="lazy"></div>
+      <div class="about__panel">
+        <span class="subheading">ONS VERHAAL</span>
+        <h2>Hoe Het Begon</h2>
+        <p>Het begon met een simpele overtuiging: elke patient verdient een arts die niet alleen meedenkt, maar ook meevoelt. Wat startte als een kleine huisartsenpraktijk, groeide uit tot een volwaardige kliniek met meerdere specialismen onder een dak.</p>
+        <p>Wij geloven dat de beste zorg ontstaat wanneer medische expertise en menselijkheid samenkomen. Daarom investeren we niet alleen in de nieuwste technieken, maar vooral in de relatie met onze patienten.</p>
+        <a href="contact.html" class="btn btn--primary">Maak een Afspraak</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features reveal-on-scroll" style="background-color: var(--color-bg-warm);">
+    <div class="container" style="text-align: center; margin-bottom: var(--sp-8);"><span class="subheading">ONZE WAARDEN</span><h2>Waar Wij Voor Staan</h2></div>
+    <div class="features__grid reveal-stagger">
+      <article class="feature-card"><div class="feature-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div><h3>Persoonlijke Aandacht</h3><p>Wij nemen de tijd voor elke patient. Geen haastige consulten, maar uitgebreide gesprekken waarin u zich gehoord voelt.</p></article>
+      <article class="feature-card"><div class="feature-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3>Multidisciplinair</h3><p>Huisarts, specialist en therapeut werken samen onder een dak. Snelle doorverwijzing, geen wachttijden tussen disciplines.</p></article>
+      <article class="feature-card"><div class="feature-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><h3>Evidence-Based</h3><p>Al onze behandelingen zijn gebaseerd op de nieuwste wetenschappelijke inzichten. Bewezen effectief, transparant in resultaat.</p></article>
+    </div>
+  </section>
+
+  <section class="section-pad reveal-on-scroll" id="team">
+    <div class="container" style="text-align: center; margin-bottom: var(--sp-8);"><span class="subheading">ONS TEAM</span><h2>De Specialisten</h2></div>
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--grid-gap);" class="reveal-stagger team-grid">
+        <article class="team-card" style="text-align: center;"><div style="border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 3 / 4; margin-bottom: var(--sp-5);"><img src="images/team-1.jpg" alt="Portretfoto arts" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;"></div><h3 style="font-size: 20px; margin-bottom: var(--sp-1);">Dr. Sarah van Dijk</h3><span class="subheading" style="display: block; margin-bottom: var(--sp-3); color: var(--color-dusty-teal);">Huisarts & Oprichter</span><p style="font-size: 15px; opacity: 0.75; text-align: center;">Met meer dan 15 jaar ervaring combineert zij empathie met scherpe diagnostiek.</p></article>
+        <article class="team-card" style="text-align: center;"><div style="border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 3 / 4; margin-bottom: var(--sp-5);"><img src="images/team-2.jpg" alt="Portretfoto specialist" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;"></div><h3 style="font-size: 20px; margin-bottom: var(--sp-1);">Dr. Mark Jansen</h3><span class="subheading" style="display: block; margin-bottom: var(--sp-3); color: var(--color-dusty-teal);">Dermatoloog</span><p style="font-size: 15px; opacity: 0.75; text-align: center;">Gespecialiseerd in huidscreening, lasertherapie en cosmetische dermatologie.</p></article>
+        <article class="team-card" style="text-align: center;"><div style="border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 3 / 4; margin-bottom: var(--sp-5);"><img src="images/team-3.jpg" alt="Portretfoto fysiotherapeut" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;"></div><h3 style="font-size: 20px; margin-bottom: var(--sp-1);">Lisa Kuipers</h3><span class="subheading" style="display: block; margin-bottom: var(--sp-3); color: var(--color-dusty-teal);">Fysiotherapeut</span><p style="font-size: 15px; opacity: 0.75; text-align: center;">Expert in revalidatie na operaties en behandeling van chronische pijnklachten.</p></article>
+        <article class="team-card" style="text-align: center;"><div style="border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 3 / 4; margin-bottom: var(--sp-5);"><img src="images/team-4.jpg" alt="Portretfoto oogarts" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;"></div><h3 style="font-size: 20px; margin-bottom: var(--sp-1);">Dr. Anke Willems</h3><span class="subheading" style="display: block; margin-bottom: var(--sp-3); color: var(--color-dusty-teal);">Oogarts</span><p style="font-size: 15px; opacity: 0.75; text-align: center;">Gespecialiseerd in staaroperaties en diagnostiek van complexe oogaandoeningen.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad reveal-on-scroll" style="background-color: var(--color-bg-dark); color: var(--color-text-light);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--grid-gap); text-align: center;" class="stats-grid">
+        <div class="stat-item"><span class="count-up" data-target="5000" data-suffix="+" style="font-family: var(--font-heading); font-weight: 500; font-size: clamp(40px, 6vw, 64px); line-height: 1; display: block; color: var(--color-dusty-teal);">0</span><span style="font-family: var(--font-ui); font-size: var(--fs-button); text-transform: uppercase; letter-spacing: var(--ls-uppercase); opacity: 0.7; margin-top: var(--sp-3); display: block;">Patienten</span></div>
+        <div class="stat-item"><span class="count-up" data-target="14" data-suffix="+" style="font-family: var(--font-heading); font-weight: 500; font-size: clamp(40px, 6vw, 64px); line-height: 1; display: block; color: var(--color-dusty-teal);">0</span><span style="font-family: var(--font-ui); font-size: var(--fs-button); text-transform: uppercase; letter-spacing: var(--ls-uppercase); opacity: 0.7; margin-top: var(--sp-3); display: block;">Jaar Ervaring</span></div>
+        <div class="stat-item"><span class="count-up" data-target="97" data-suffix="%" style="font-family: var(--font-heading); font-weight: 500; font-size: clamp(40px, 6vw, 64px); line-height: 1; display: block; color: var(--color-dusty-teal);">0</span><span style="font-family: var(--font-ui); font-size: var(--fs-button); text-transform: uppercase; letter-spacing: var(--ls-uppercase); opacity: 0.7; margin-top: var(--sp-3); display: block;">Tevredenheid</span></div>
+        <div class="stat-item"><span class="count-up" data-target="6" style="font-family: var(--font-heading); font-weight: 500; font-size: clamp(40px, 6vw, 64px); line-height: 1; display: block; color: var(--color-dusty-teal);">0</span><span style="font-family: var(--font-ui); font-size: var(--fs-button); text-transform: uppercase; letter-spacing: var(--ls-uppercase); opacity: 0.7; margin-top: var(--sp-3); display: block;">Specialismen</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner cta-banner--solid reveal-on-scroll">
+    <div class="cta-banner__content">
+      <span class="subheading" style="color: var(--color-mid-green);">VOLGENDE STAP</span>
+      <h2>Klaar voor persoonlijke zorg?</h2>
+      <p>Neem contact op en ontdek hoe wij u kunnen helpen. Geen wachttijden, geen verplichtingen.</p>
+      <a href="contact.html" class="btn btn--primary">Maak een Afspraak</a>
+    </div>
+  </section>
+
+  <footer class="site-footer"><div class="footer-inner"><div class="footer-col footer-col--brand"><a href="index.html" class="brand-name">ZorgPunt Voorbeeld</a><p class="footer-tagline">Schrijf u in voor onze gezondheidstips</p><form class="footer-signup" action="#" method="post"><label for="footerEmail" class="sr-only">E-mailadres</label><input type="email" id="footerEmail" name="email" placeholder="Uw e-mailadres" required><button type="submit" class="btn btn--small">Verstuur</button></form></div><div class="footer-col footer-col--contact"><h4>Contact</h4><address><p><a href="mailto:info@zorgpuntvoorbeeld.nl">info@zorgpuntvoorbeeld.nl</a></p><p><a href="tel:+31201234567">+31 20 123 4567</a></p><p>Herengracht 200<br>1016 BS Amsterdam</p></address></div><div class="footer-col footer-col--nav"><h4>Pagina's</h4><nav aria-label="Footer navigatie"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">Over Ons</a></li><li><a href="blog.html">Blog</a></li><li><a href="pricing.html">Tarieven</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div><div class="footer-bottom"><p>&copy; 2026 ZorgPunt Voorbeeld. Alle rechten voorbehouden.</p><nav class="footer-legal" aria-label="Juridische links"><a href="#">Privacy</a><a href="#">Algemene Voorwaarden</a></nav></div></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
